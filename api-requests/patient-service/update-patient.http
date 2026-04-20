@@ -1,0 +1,13 @@
+### PUT request to update the existing patient
+
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+
+{
+  "name": "Johnny English",
+  "email": "johnny.english@gmail.com",
+  "address": "747 Sterling River Street",
+  "dateOfBirth": "2000-05-03"
+}
+
+###

@@ -1,0 +1,12 @@
+### POST request to create patient
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "Johnny Telugu",
+  "email": "johnny.telugu@gmail.com",
+  "address": "108 Vedalayam Veedhi, Vizag",
+  "dateOfBirth": "2000-05-03",
+  "registeredDate": "2012-05-04"
+}
+###
